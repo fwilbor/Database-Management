@@ -23,6 +23,11 @@
         <![endif]-->
     <div>
 
+    <div></div>
+
+    <div></div>
+
+    
         <!-- Jumbotron -->
         <div class="jumbotron">
             <h1>Employee Data Management</h1>
@@ -83,8 +88,37 @@
         </div>
     </div>
 
-    <div class="row">
-
+    <div class="col-lg-6">
+        <div class="card card-default">
+            <div class="card-header">
+                Add Employee
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group col-6">
+                        <label for="exampleName">Employee Name</label>
+                        <input type="name" class="form-control" id="exampleName" aria-describedby="nameHelp"
+                            placeholder="Enter Name">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="exampleRole">Role</label>
+                        <input type="role" class="form-control" id="exampleRole" aria-describedby="roleHelp"
+                            placeholder="Enter Role">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="exampleDate">Start Date MM/DD/YYYY</label>
+                        <input type="date" class="form-control" id="exampleDate" aria-describedby="dateHelp"
+                            placeholder="MM/DD/YYYY">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="exampleRate">Monthly Rate</label>
+                        <input type="rate" class="form-control" id="exampleRate" aria-describedby="rateHelp"
+                            placeholder="Enter Rate">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
 
     <script src="app.js" async defer></script>
