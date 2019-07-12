@@ -3,13 +3,13 @@ console.log("Hello World!");
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyCwvZvLtxi8ho8G9kjKpJzAqVcDbtsRH94",
-    authDomain: "databasemanagement-aa25d.firebaseapp.com",
-    databaseURL: "https://databasemanagement-aa25d.firebaseio.com",
-    projectId: "databasemanagement-aa25d",
-    storageBucket: "databasemanagement-aa25d.appspot.com",
-    messagingSenderId: "15605932344",
-    appId: "1:15605932344:web:cf92b5c5eb39e35c"
+    apiKey: "AIzaSyA9RLj3AF-1UhA4UQFLVuKS47hYunxSQcg",
+    authDomain: "employeetime-f3544.firebaseapp.com",
+    databaseURL: "https://employeetime-f3544.firebaseio.com",
+    projectId: "employeetime-f3544",
+    storageBucket: "",
+    messagingSenderId: "1062609983696",
+    appId: "1:1062609983696:web:9421a5aada42a8e9"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
