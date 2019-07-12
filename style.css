@@ -1,9 +1,13 @@
+#storage{
+    background-color: lightgray;
+}
 .card-header{
     font-weight: bold;
 }
 
 label {
     font-weight: bold;
+}
 .jumbotron {
 
     background: black;
