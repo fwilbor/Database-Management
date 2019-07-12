@@ -1,5 +1,6 @@
 console.log("Hello World!");
 
+
 // Your web app's Firebase configuration
 var firebaseConfig = {
     apiKey: "AIzaSyCwvZvLtxi8ho8G9kjKpJzAqVcDbtsRH94",
@@ -15,7 +16,19 @@ var firebaseConfig = {
   
   var database = firebase.database();
 
-  var name = "";
-  var email = "";
-  var age = 0;
-  var comment = "";
+
+  $(".btn").on("click", function(event){
+    event.preventDefault();
+
+    var name= $("#exampleName").val().trim();
+    var role= $("#exampleRole").val().trim();
+    var date= $("#exampleDate").val().trim();
+    var rate= $("#exampleRate").val().trim();
+
+    database.ref().set({
+        name:name,
+        role:role,
+        date:date,
+        rate:rate
+    });
+});
