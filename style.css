@@ -4,4 +4,10 @@
 
 label {
     font-weight: bold;
+.jumbotron {
+
+    background: black;
+    color: white;
+    text-align: center;
+    align-content: center;
 }
